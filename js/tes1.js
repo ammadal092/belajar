@@ -7,6 +7,7 @@ function toggleVisibility(buttonId, tdId) {
 }
 
 // Panggil fungsi untuk setiap tombol
-toggleVisibility('button1', 'd1');
-toggleVisibility('button2', 'd2');
-toggleVisibility('button3', 'd3');
+for (let i = 1; i <= 100; i++) {
+    toggleVisibility('button' + i, 'd' + i);
+}
+
